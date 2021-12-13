@@ -10,5 +10,5 @@ include $(PGXS)
 all: prepare_readme
 
 prepare_readme: README.md
-        @echo "Prepare README.external_file"
-        cp README.md README.external_file
+	@echo "Prepare README.external_file"
+	cp README.md README.external_file
